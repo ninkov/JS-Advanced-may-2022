@@ -9,3 +9,4 @@ function solve(input) {
     console.log(res);
 }
 solve(2);
+
