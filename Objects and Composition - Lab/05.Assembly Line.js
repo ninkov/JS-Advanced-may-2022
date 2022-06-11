@@ -22,7 +22,7 @@ function createAssemblyLine() {
       };
     },
     hasParktronic: (myCar) => {
-      myCar.checkDistance = (distance) => {
+      myCar.checkDistance = () => {
         if (myCar.distance < 0.1) {
           console.log(`Beep! Beep! Beep!`);
         } else if (myCar.distance >= 0.1 || myCar.distance < 0.25) {
