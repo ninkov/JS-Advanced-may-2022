@@ -7,7 +7,7 @@ function solve() {
   function onClick() {
     for (const line of rows) {
       line.classList.remove('select');
-      if (inputField.value != "" && line.innerHTML.includes(inputField.value)) {
+      if (inputField.value != "" && line.innerHTML.includes(inputField.value)) {//we can use line.textContent it's same
       line.className='select';
       }
     }
