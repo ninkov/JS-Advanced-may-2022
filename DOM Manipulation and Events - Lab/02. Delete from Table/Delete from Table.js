@@ -11,6 +11,7 @@ function deleteByEmail() {
   for (const row of rows) {
     if (row.children[1].textContent == inputValue) {
       const parent = row.parentElement;
+      //row.remove();
       parent.removeChild(row);
       found = true;
     }
