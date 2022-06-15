@@ -22,4 +22,5 @@ function deleteByEmail() {
   } else {
     document.getElementById("result").textContent = "Not found.";
   }
+  //same way --> document.getElementById('result).textContent = found ? 'Deleted.' : 'Not found.'
 }
