@@ -7,13 +7,16 @@ function create(words) {
       p.style.display = 'none';
       div.appendChild(p);
 
-      div.addEventListener('click',show)
+       div.addEventListener('click', (event) => {
+         event.currentTarget.children[0].style.display = ''
+      });
 
       content.appendChild(div);
 
-      function show(event) {
-
-         event.currentTarget.children[0].style.display='';
-      }
+//       different solution
+//       div.addEventListener('click',show)
+//       function show(event) {
+//          event.currentTarget.children[0].style.display='';
+//       }
    }
 }
