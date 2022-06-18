@@ -6,7 +6,7 @@ function attachEventsListeners() {
     let minutesBtn = document.getElementById('minutesBtn');
     let secondsBtn = document.getElementById('secondsBtn');
 
-    //teka input fields
+    //take input fields
     let days = document.getElementById('days');
     let hours = document.getElementById('hours');
     let minutes = document.getElementById('minutes');
